@@ -1,0 +1,47 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CustomDAL", "CustomDAL", "{405F6A22-2BAE-4885-BE21-93FF7DA9F7FD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mod05-ChelasDAL", "Mod05-ChelasDAL\Mod05-ChelasDAL.csproj", "{2B043C9F-12B7-4BA5-9BFF-28FA8EB034C5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mod5-DomainModel", "Mod5-DomainModel\Mod5-DomainModel.csproj", "{F905FE78-CF12-4733-AF0D-3038E1CF4D2D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mod5-DomainModel.Test", "Mod5-DomainModel.Test\Mod5-DomainModel.Test.csproj", "{9AE62DBA-1527-440B-9AD0-26E0A06102CF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{77C7CE79-9A83-4E74-AD7D-9EBD87C9F767}"
+	ProjectSection(SolutionItems) = preProject
+		Local.testsettings = Local.testsettings
+		Mod05-DataAccess.vsmdi = Mod05-DataAccess.vsmdi
+		TraceAndTestImpact.testsettings = TraceAndTestImpact.testsettings
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = Mod05-DataAccess.vsmdi
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2B043C9F-12B7-4BA5-9BFF-28FA8EB034C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B043C9F-12B7-4BA5-9BFF-28FA8EB034C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B043C9F-12B7-4BA5-9BFF-28FA8EB034C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B043C9F-12B7-4BA5-9BFF-28FA8EB034C5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F905FE78-CF12-4733-AF0D-3038E1CF4D2D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F905FE78-CF12-4733-AF0D-3038E1CF4D2D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F905FE78-CF12-4733-AF0D-3038E1CF4D2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F905FE78-CF12-4733-AF0D-3038E1CF4D2D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9AE62DBA-1527-440B-9AD0-26E0A06102CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9AE62DBA-1527-440B-9AD0-26E0A06102CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9AE62DBA-1527-440B-9AD0-26E0A06102CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9AE62DBA-1527-440B-9AD0-26E0A06102CF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2B043C9F-12B7-4BA5-9BFF-28FA8EB034C5} = {405F6A22-2BAE-4885-BE21-93FF7DA9F7FD}
+	EndGlobalSection
+EndGlobal
